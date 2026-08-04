@@ -1,0 +1,10 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "Shared utilities for database replication platform",
+  "main": "index.js",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "winston": "^3.11.0"
+  }
+}
