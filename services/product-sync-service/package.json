@@ -1,0 +1,14 @@
+{
+  "name": "product-sync-service",
+  "version": "1.0.0",
+  "description": "Product Sync microservice to consume product events and sync to MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.1",
+    "shared": "file:../../shared"
+  }
+}
