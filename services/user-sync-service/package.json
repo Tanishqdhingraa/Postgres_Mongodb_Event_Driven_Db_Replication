@@ -1,0 +1,14 @@
+{
+  "name": "user-sync-service",
+  "version": "1.0.0",
+  "description": "User Sync microservice to consume user events and sync to MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "mongoose": "^8.3.1",
+    "shared": "file:../../shared"
+  }
+}
